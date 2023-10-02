@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PlantCommunicator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section class="content">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <h1 class="title">Plant Communicator : An effective way of monitoring a plant</h1>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img src="images\Plantpot.png" alt="Plant Image">
+        </div>
+      </div>
+    </section>
+
+    <section class="readings">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <img class="read-img" src="images/thermometer.png">
+            </div>
+            <div class="card-body">
+              <h2>Temperature</h2>
+              <h3 id="temp"></h3>
+              <h3>°C</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <img class="read-img" src="images/moisture.png">
+            </div>
+            <div class="card-body">
+              <h2>Moisture</h2>
+              <h3 id="moisture"></h3>
+              <h3>%</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <img class="read-img" src="images/humidity.png">
+            </div>
+            <div class="card-body">
+              <h2>Humidity</h2>
+              <h3 id="humid"></h3>
+              <h3>%</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <img class="read-img" src="images/barometer.png">
+            </div>
+            <div class="card-body">
+              <h2>Air Pressure</h2> 
+              <h3 id="press"></h3>
+              <h3>hPa</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
